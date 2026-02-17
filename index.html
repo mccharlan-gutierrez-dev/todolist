@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <style>
+        .btn-itry{
+            background-color: blueviolet;
+        }
+        
+        p{
+            text-align: justify;
+        }
+        input{
+            display: block;
+        }
+        .border-thick{
+          border-width: 6px !important;
+        }
+        .shadow-thin {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.shadow-medium {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-thick {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>Web Portfolio</h1>
+        <!--Grid<div class="row">
+            <div class="col-md-1">this consume 3 colomns</div>
+            <div class="col-md-1">this consume 3 colomns</div>
+            <div class="col-md-3">this consume 3 colomns</div>
+            <div class="col-md-3">this consume 3 colomns</div>
+            <div class="col-md-3">this consume 3 colomns</div>
+            <div class="col-md-1">this consume 3 colomns</div>
+        </div>
+    </div>-->
+    <!--
+    <button type="button" class="btn btn-primary">button</button>
+    <button type="button" class="btn btn-secondary">button</button>
+    <button type="button" class="btn btn-success">button</button>
+    <button type="button" class="btn btn-danger">button</button>
+    <button type="button" class="btn btn-warning">button</button>
+    <button type="button" class="btn btn-info">button</button>
+    <button type="button" class="btn btn-ligth">button</button>
+    <button type="button" class="btn btn-dark">button</button>
+    <button type="button" class="btn btn-link">button</button>
+    <!--if u want to modified the bg color you can create a unique words on ur own by not using the default worlds in bootstrap color class just use a css technique-->
+    <!--<button type="button" class="btn btn-itry">button</button>-->
+    
+
+    card
+    <div class="d-flex justify-content-center gap-3">
+      <div class="card" style="width: 18rem;">
+        <img src="grad pic.jpg" alt="">
+        <div class="card-body">
+            <h5 class="card-title">Hi Im Mc Charlan Gutierrez</h5>
+            <p class="card-text">Actively seeking a 600-hour Web Developer trainee position to gain practical experience in web application development.</p>
+            <a href="gutierrez_cv.pdf" class="btn btn-primary" >Download CV</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="resume pic.png" alt="">
+        <div class="card-body">
+            <h5 class="card-title">Hi Im Mc Charlan Gutierrez</h5>
+            <p class="card-text">Actively seeking a 600-hour Web Developer trainee position to gain practical experience in web application development.</p>
+            <a href="gutierrez_cv.pdf" class="btn btn-primary" >Download CV</a>
+        </div>
+    </div>
+    </div>
+
+    
+    
+<!--
+    <div class="card d-inline-block me-3" style="width: 18rem;">
+  <img src="resume pic.png" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Hi I’m Mc Charlan Gutierrez</h5>
+    <p class="card-text">
+      Actively seeking a 600-hour Web Developer trainee position.
+    </p>
+    <a href="gutierrez_cv.pdf" class="btn btn-primary">Download CV</a>
+  </div>
+</div>
+
+<div class="card d-inline-block" style="width: 18rem;">
+  <img src="resume pic.png" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Hi I’m Mc Charlan Gutierrez</h5>
+    <p class="card-text">
+      Actively seeking a 600-hour Web Developer trainee position.
+    </p>
+    <a href="gutierrez_cv.pdf" class="btn btn-primary">Download CV</a>
+  </div>
+</div>
+
+<div class="card d-inline-block" style="width: 18rem;">
+  <img src="resume pic.png" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Hi I’m Mc Charlan Gutierrez</h5>
+    <p class="card-text">
+      Actively seeking a 600-hour Web Developer trainee position.
+    </p>
+    <a href="gutierrez_cv.pdf" class="btn btn-primary">Download CV</a>
+  </div>
+</div>
+<div class="card d-inline-block" style="width: 18rem;">
+  <img src="resume pic.png" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Hi I’m Mc Charlan Gutierrez</h5>
+    <p class="card-text">
+      Actively seeking a 600-hour Web Developer trainee position.
+    </p>
+    <a href="gutierrez_cv.pdf" class="btn btn-primary">Download CV</a>
+  </div>
+</div>-->
+
+
+<p>Form-select</p>
+    <select class="form-select" aria-label="Default select example" id="">
+        <option selected>Open this select menu</option>
+        <option value="1">one</option>
+        <option value="2">two</option>
+        <option value="3">three</option>
+    </select>
+    <br>
+    
+<p>Form-checkbox</p>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+  <label class="form-check-label">Option 1</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+  <label class="form-check-label">Option 2</label>
+</div>
+<br>
+
+<p>Form-radio</p>
+<div class="form-check">
+  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Option 1
+  <label class="form-check-label" for="radio1"></label>
+</div>
+<div class="form-check">
+  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Option 2
+  <label class="form-check-label" for="radio2"></label>
+</div>
+<div class="form-check">
+  <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option2">Option 3
+  <label class="form-check-label" for="radio3"></label>
+</div>
+<br>
+
+<p>Form-switch</p>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+  <label class="form-check-label" for="mySwitch">Dark Mode</label>
+</div>
+<br>
+
+<!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+  Open modal
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       
+       <input type="email" name="" id="" placeholder="email" >
+       <input type="password" name="" id="" placeholder="password" >
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Save Changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="container mt-3">
+  <h2>Alerts</h2>
+  <p>Alerts are created with the .alert class, followed by a contextual color classes:</p>
+  <div class="alert alert-success">
+    <strong>Success!</strong> This alert box could indicate a successful or positive action.
+  </div>
+  <div class="alert alert-info">
+    <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+  </div>
+  <div class="alert alert-warning">
+    <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+  </div>
+  <div class="alert alert-danger">
+    <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+  </div>
+  <div class="alert alert-primary">
+    <strong>Primary!</strong> Indicates an important action.
+  </div>
+  <div class="alert alert-secondary">
+    <strong>Secondary!</strong> Indicates a slightly less important action.
+  </div>
+  <div class="alert alert-dark">
+    <strong>Dark!</strong> Dark grey alert.
+  </div>
+  <div class="alert alert-light">
+    <strong>Light!</strong> Light grey alert.
+  </div>
+  <br>
+
+  <!--drop-down-->
+  <p>Drop-down</p>
+  <div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another Action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+
+<p>carousel</p>
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.wallpapersden.com/image/download/nba-2022-all-stars_bWloaWaUmZqaraWkpJRmbmdlrWZlbWU.jpg" alt="Los Angeles" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/03/1294/728/steph-3.jpg?ve=1&tl=1 alt=" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.wallpapersden.com/image/download/jayson-tatum-4k-nba-2k25_bmhlZ2mUmZqaraWkpJRobWllrWdma2U.jpg" alt="New York" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://wallpapers.com/images/hd/4k-nba-lebron-dunking-7yteulam51lwrdzu.jpg" alt="New York" class="d-block w-100">
+    </div>
+    
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!--to display and to not display-->
+<div class="visible">i am visible</div>
+<div class="invisible"> i am invisible</div>
+<br>
+
+<div class="m-5 p-5 border border-primary">margin of 5 padding of 2</div>
+<br>
+
+<img src="resume pic.png" alt=""  class="rounded border border-primary border-thick w-25 h-25 shadow-thick p-3 mb-5 bg-body-tertiary rounded">
+
+<br>
+
+<!--bootstrap flexbox-->
+<div class="d-flex align-items-center gap-3">
+  <img src="resume pic.png"
+       alt=""
+       class="rounded border border-primary border-thick w-25 shadow-thick p-3 bg-body-tertiary">
+
+  <p class="mb-0">Actively seeking a 600-hour Web Developer trainee position to gain practical experience in web application development.</p>
+</div>
+
+
+<!--shadow-->
+<div class="shadow-none p-3 mb-5 bg-body-tertiary rounded">No shadow</div>
+<div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded">Small shadow</div>
+<div class="shadow p-3 mb-5 bg-body-tertiary rounded">Regular shadow</div>
+<div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">Larger shadow</div>
+<br>
+<div class="shadow-thin p-3 mb-5 bg-body-tertiary rounded">Thin shadow</div>
+<div class="shadow-medium p-3 mb-5 bg-body-tertiary rounded">Medium shadow</div>
+<div class="shadow-thick p-3 mb-5 bg-body-tertiary rounded">Thick shadow</div>
+
+</body>
+</html>
